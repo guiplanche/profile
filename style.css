@@ -1,0 +1,89 @@
+/* Corps (body) */
+body {
+  background-color: #f50f50f50; /* Choisis une couleur de fond */
+  font-family: 'Open Sans', sans-serif; /* Choisis un style de police */
+  color: #333; /* Choisis une couleur de texte */
+  font-size: 16px; /* Choisis une taille de police */
+  line-height: 1.6; /* Choisis une hauteur de ligne */
+}
+
+/* Titres (headers) */
+h1, h2, h3 {
+  color: #0066cc; /* Choisis une couleur pour les titres */
+  font-family: 'Poppins', sans-serif; /* Choisis un style de police pour les titres */
+  font-size: 24px; /* Choisis une taille de police pour les titres */
+  line-height: 1.4; /* Choisis une hauteur de ligne pour les titres */
+}
+
+/* Liens */
+a {
+  color: #990000; /* Change la couleur des liens */
+  text-decoration: none; /* Enlève la décoration de texte par défaut des liens */
+}
+
+a:hover {
+  color: #cc0000; /* Ajoute un effet de survol pour les liens */
+  text-decoration: underline; /* Ajoute une décoration de texte soulignée au survol */
+}
+
+/* Conteneur */
+.container {
+  width: 500px; /* Définit la largeur */
+  margin: 0 auto; /* Centre le conteneur en utilisant des marges automatiques à gauche et à droite */
+}
+
+/* Cartes (cards) */
+.card {
+  background: rgb(236, 235, 235); /* Fond blanc */
+  padding: 30px; /* Remplissage intérieur */
+  border: 1px solid lightgrey; /* Bordure légère en gris clair */
+  border-radius: 10px; /* Bords légèrement arrondis */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+  margin-bottom: 20px; /* Marge en bas pour espacer les cartes */
+}
+p {
+  text-align: justify;
+}
+/* Classe pour une image circulaire */
+.img-circle {
+  border-radius: 50%;
+}
+
+/* Classe pour centrer le texte */
+.text-center {
+  text-align: center;
+}
+
+#profile_pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+/* Conteneur */
+.container {
+  width: 500px; /* Taille par défaut */
+}
+
+/* Media queries pour différentes largeurs d'écran */
+@media (max-width: 960px) {
+  /* Pour un écran < 960px */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px */
+  .container {
+    width: 300px;
+  }
+}
